@@ -96,7 +96,7 @@ nav ul li a:hover {
 /* --- Hero Section --- */
 .hero {
     /* Step 1: Add your image path relative to the CSS file */
-    background-image: linear-gradient(rgba(10, 21, 32, 0.7), rgba(10, 21, 32, 0.7)), url('../images/hero-bg.jpg');
+    background-image: linear-gradient(rgba(10, 21, 32, 0.7), rgba(10, 21, 32, 0.7)), url('../images/abb1.jpg');
     
     /* Step 2: Make sure the image scales beautifully */
     background-size: cover;        /* Scales the image to fill the entire header box */
