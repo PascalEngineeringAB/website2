@@ -95,7 +95,15 @@ nav ul li a:hover {
 
 /* --- Hero Section --- */
 .hero {
-    background: linear-gradient(135deg, #1a2a3a 0%, #0a1520 100%);
+    /* Step 1: Add your image path relative to the CSS file */
+    background-image: linear-gradient(rgba(10, 21, 32, 0.7), rgba(10, 21, 32, 0.7)), url('../images/hero-bg.jpg');
+    
+    /* Step 2: Make sure the image scales beautifully */
+    background-size: cover;        /* Scales the image to fill the entire header box */
+    background-position: center;   /* Keeps the image centered perfectly */
+    background-repeat: no-repeat;  /* Prevents the image from repeating like a grid tile */
+    
+    /* Step 3: Layout variables (keep these the same) */
     color: white;
     padding: 180px 0 120px 0;
     text-align: center;
